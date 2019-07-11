@@ -1,0 +1,46 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card {
+  max-height: 200px;
+  margin-left: 30px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.product-image{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.header {
+  min-width: 250px;
+}
+
+.body {
+  min-width: 80px;
+}
+
+.footer {
+  height: 110px;
+  min-width: 350px;
+}
+
+.price{
+  font-size: 20px;
+  color: red;
+}
+.action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.empty{
+  background-image: url("https://cdn.dribbble.com/users/844846/screenshots/2981974/empty_cart_800x600_dribbble.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}

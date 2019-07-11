@@ -1,0 +1,23 @@
+<div class="home">
+  <ng-container *ngFor="let data of dataSource">
+      <div class="product-card">
+        <div class="header">
+          {{data.name}}
+        </div>
+        <div class="body">
+          <img [src]="data.imageUrl" class="product-image">
+        </div>
+        <div class="footer">
+          <div class="description">
+              {{data.description}}
+          </div>
+          <div class="price">
+              {{data.currency}}{{data.price}}
+          </div>
+          <div class="action">
+            <input type="button" value="Add to cart" (click)="addToCart(data)">
+          </div>
+        </div>
+      </div>
+  </ng-container>
+</div>

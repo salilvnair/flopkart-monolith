@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+}
+
+.product-card {
+  max-width: 200px;
+  max-height: 300px;
+  margin-left: 30px;
+}
+
+.product-image{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.footer {
+  position: relative;
+  height: 110px;
+}
+
+.price{
+  font-size: 20px;
+  color: red;
+}
+.action {
+  position: absolute;
+  bottom: 0;
+}
