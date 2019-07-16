@@ -15,38 +15,38 @@ export class HomeService {
     let products:Product[] = [
       {
         id:1,
-        name:'Redmi 6 Pro',
-        description:'Black, 4GB RAM, 64GB Storage',
+        name:'Samsung Galaxy Note 7',
+        description:'Warms up, can be used as Heater or Explosion',
         currency:'₹',
-        imageUrl:'https://m.media-amazon.com/images/I/81xl7IHBw-L._AC_UL436_.jpg',
-        price:'10999',
+        imageUrl:'https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note7.jpg',
+        price:'59999',
         rating:4
       },
       {
         id:2,
-        name:'Samsung Galaxy M10',
-        description:'Ocean Blue, 2+16GB',
+        name:'Samsung Galaxy Fold',
+        description:'Peel the screen off to switch it off permanently',
         currency:'₹',
-        imageUrl:'https://m.media-amazon.com/images/I/613Os2k0a2L._AC_UL436_.jpg',
-        price:'6990',
+        imageUrl:'https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-fold.jpg',
+        price:'1,40,790',
         rating:4
       },
       {
         id:3,
-        name:'Nokia 105',
-        description:'Ocean Blue, 2+16GB',
+        name:'iPhone 6',
+        description:'Block all outgoing calls without any additional settings',
         currency:'₹',
-        imageUrl:'https://m.media-amazon.com/images/I/51wrcikRDcL._AC_UL436_.jpg',
-        price:'6990',
+        imageUrl:'https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-6-4.jpg',
+        price:'30000',
         rating:4
       },
       {
         id:4,
-        name:'OnePlus 7',
-        description:'Mirror Grey, 6GB RAM, 128GB Storage',
+        name:'Nokia Lumia 520',
+        description:'Lets do something ironic, lets choose windows',
         currency:'₹',
-        imageUrl:'https://m.media-amazon.com/images/I/51yWLNrJLVL._AC_UL436_.jpg',
-        price:'32999',
+        imageUrl:'https://cdn2.gsmarena.com/vv/bigpic/nokia-lumia-520.jpg',
+        price:'7999',
         rating:4
       }
     ];
