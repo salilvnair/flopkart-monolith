@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "deploy":"heroku maintenance:on && git push heroku master && heroku maintenance:off",
     "postinstall": "ng build --prod --output-hashing=none"
   },
   "private": true,
